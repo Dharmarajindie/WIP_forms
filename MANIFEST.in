@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include wip_forms *.css
+recursive-include wip_forms *.csv
+recursive-include wip_forms *.html
+recursive-include wip_forms *.ico
+recursive-include wip_forms *.js
+recursive-include wip_forms *.json
+recursive-include wip_forms *.md
+recursive-include wip_forms *.png
+recursive-include wip_forms *.py
+recursive-include wip_forms *.svg
+recursive-include wip_forms *.txt
+recursive-exclude wip_forms *.pyc
