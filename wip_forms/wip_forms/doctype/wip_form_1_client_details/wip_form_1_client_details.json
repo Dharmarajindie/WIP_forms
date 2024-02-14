@@ -1,0 +1,115 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-09 13:34:37.265307",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_name",
+  "client_representative_name",
+  "mobile",
+  "email",
+  "deal_name",
+  "column_break_shrdg",
+  "related_counter_party_wip",
+  "industry_of_client",
+  "source",
+  "business_group_of_client",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "description": "Please select from the list to avoid duplicate records",
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "client_representative_name",
+   "fieldtype": "Data",
+   "label": "Client Representative Name"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "deal_name",
+   "fieldtype": "Data",
+   "label": "Deal Name"
+  },
+  {
+   "fieldname": "column_break_shrdg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "related_counter_party_wip",
+   "fieldtype": "Table",
+   "label": "Related Counter Party WIP",
+   "options": "Related Counter Party WIP"
+  },
+  {
+   "fieldname": "industry_of_client",
+   "fieldtype": "Link",
+   "label": "Industry of Client",
+   "options": "Industry Type"
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Link",
+   "label": "Source",
+   "options": "Production Plan Item Reference"
+  },
+  {
+   "fieldname": "business_group_of_client",
+   "fieldtype": "Link",
+   "label": "Business Group of Client",
+   "options": "Customer Group"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "WIP Form 1 Client Details",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-02-09 13:47:50.200603",
+ "modified_by": "Administrator",
+ "module": "Wip Forms",
+ "name": "WIP Form 1 Client Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

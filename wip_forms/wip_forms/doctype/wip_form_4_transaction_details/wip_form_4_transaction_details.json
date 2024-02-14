@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-12 14:57:51.925201",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "transaction_details_section",
+  "section_break_idl4h",
+  "stages",
+  "add1",
+  "section_break_y3vtj",
+  "sharing_with_other_teams",
+  "add2"
+ ],
+ "fields": [
+  {
+   "fieldname": "transaction_details_section",
+   "fieldtype": "Section Break",
+   "label": "Transaction Details"
+  },
+  {
+   "fieldname": "section_break_idl4h",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "stages",
+   "fieldtype": "Table",
+   "label": "Stages",
+   "options": "Stages"
+  },
+  {
+   "fieldname": "add1",
+   "fieldtype": "Button",
+   "label": "Add"
+  },
+  {
+   "fieldname": "section_break_y3vtj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sharing_with_other_teams",
+   "fieldtype": "Table",
+   "label": "Sharing with other teams",
+   "options": "Sharing with other teams"
+  },
+  {
+   "fieldname": "add2",
+   "fieldtype": "Button",
+   "label": "Add"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-13 15:07:24.659063",
+ "modified_by": "Administrator",
+ "module": "Wip Forms",
+ "name": "WIP form 4 Transaction Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

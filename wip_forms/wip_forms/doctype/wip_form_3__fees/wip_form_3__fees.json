@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-12 12:24:09.136589",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fees_terms_and_letter_status",
+  "deal_values_and_fees_details_section",
+  "deal_type",
+  "area_unitno_of_seats",
+  "arearate_per_month_per_seat",
+  "rate_unitrate_per_month",
+  "rateexpected_tenure_in_months",
+  "deal_value",
+  "fee_terms_section",
+  "_of_deal_valueno_of_months_of_rentals",
+  "fees_amount",
+  "lumpsum_fees"
+ ],
+ "fields": [
+  {
+   "fieldname": "fees_terms_and_letter_status",
+   "fieldtype": "Data",
+   "label": "Fees terms and Letter Status"
+  },
+  {
+   "fieldname": "deal_values_and_fees_details_section",
+   "fieldtype": "Section Break",
+   "label": "Deal Values and Fees Details"
+  },
+  {
+   "fieldname": "deal_type",
+   "fieldtype": "Select",
+   "label": "Deal Type",
+   "options": "\nOutright/Sale\nLease\nCo-working/Workstations"
+  },
+  {
+   "fieldname": "area_unitno_of_seats",
+   "fieldtype": "Int",
+   "label": "Area Unit/No of Seats"
+  },
+  {
+   "fieldname": "arearate_per_month_per_seat",
+   "fieldtype": "Float",
+   "label": "Area/Rate per month per seat"
+  },
+  {
+   "fieldname": "rate_unitrate_per_month",
+   "fieldtype": "Float",
+   "label": "Rate Unit/Rate per month"
+  },
+  {
+   "fieldname": "deal_value",
+   "fieldtype": "Float",
+   "label": "Deal Value"
+  },
+  {
+   "fieldname": "fee_terms_section",
+   "fieldtype": "Section Break",
+   "label": "Fee Terms"
+  },
+  {
+   "fieldname": "_of_deal_valueno_of_months_of_rentals",
+   "fieldtype": "Float",
+   "label": "% of Deal Value/No of months' of rentals"
+  },
+  {
+   "fieldname": "fees_amount",
+   "fieldtype": "Float",
+   "label": "Fees Amount"
+  },
+  {
+   "fieldname": "lumpsum_fees",
+   "fieldtype": "Float",
+   "label": "Lumpsum Fees"
+  },
+  {
+   "fieldname": "rateexpected_tenure_in_months",
+   "fieldtype": "Float",
+   "label": "Rate/Expected Tenure in Months"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-12 12:45:26.159305",
+ "modified_by": "Administrator",
+ "module": "Wip Forms",
+ "name": "WIP Form 3  Fees",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

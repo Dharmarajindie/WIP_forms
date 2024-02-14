@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-02-12 10:17:58.090143",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "for_agency_section",
+  "type_of_assignment1",
+  "flat_nofloorbuilding_name",
+  "for_advisory_section",
+  "type_of_assignment",
+  "street_namelocality",
+  "property_location"
+ ],
+ "fields": [
+  {
+   "fieldname": "for_agency_section",
+   "fieldtype": "Section Break",
+   "label": "For Agency"
+  },
+  {
+   "fieldname": "type_of_assignment1",
+   "fieldtype": "Link",
+   "label": "Type of Assignment",
+   "options": "Assignment Rule"
+  },
+  {
+   "fieldname": "flat_nofloorbuilding_name",
+   "fieldtype": "Data",
+   "label": "Flat No/Floor/Building Name"
+  },
+  {
+   "fieldname": "for_advisory_section",
+   "fieldtype": "Section Break",
+   "label": "For Advisory"
+  },
+  {
+   "fieldname": "type_of_assignment",
+   "fieldtype": "Link",
+   "label": "Type of Assignment",
+   "options": "Assignment Rule"
+  },
+  {
+   "fieldname": "street_namelocality",
+   "fieldtype": "Data",
+   "label": "Street Name/Locality"
+  },
+  {
+   "fieldname": "property_location",
+   "fieldtype": "Data",
+   "label": "Property Location"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-02-12 10:20:50.112344",
+ "modified_by": "Administrator",
+ "module": "Wip Forms",
+ "name": "WIP Form 2 Property Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
